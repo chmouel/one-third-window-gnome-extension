@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.onethirdwindow" path="/org/gnome/shell/extensions/onethirdwindow/">
+    <key name="center-shortcut" type="as">
+      <default><![CDATA[['<Super>c']]]></default>
+      <summary>Center Window Shortcut Key</summary>
+    </key>
+    <key name="rotate-shortcut" type="as">
+      <default><![CDATA[['<Super><Shift>c']]]></default>
+      <summary>Shortcut to rotate between left, center, right window</summary>
+    </key>
+    <key name="enlarge-width" type="i">
+      <summary>How many pixels to enlarge the window with</summary>
+      <default>400</default>
+    </key>
+    
+    <key name="top-start" type="i">
+      <summary>From how much pixels we start placing the window, if you have a bigger panel then add the pixels</summary>
+      <default>25</default>
+    </key>
+
+    <key name="height-increase" type="i">
+      <summary>How much height we increase to the window</summary>
+      <default>25</default>
+    </key>
+    
+  </schema>
+</schemalist>
