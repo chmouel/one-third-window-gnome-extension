@@ -3,12 +3,14 @@
 Position window to a one third of the screen.
 
 The idea of one third window is where you have a ultra wide screen and rather
-have a "big" centered window but keep some other windows (2 to be exact) on the
+wanted to have a "large" centered window but keep some other windows (2 to be exact) on the
 side.
 
 This extension automate it, it add a shortcut (Super+c by default ) to always
-center the current or another shortcut (Super+Shift+c) to rotate the postion
+center the current and another shortcut (Super+Shift+c) to rotate the postion
 from Left to Right.
+
+You can customize the pixel positionement as much as you want but the defaults should be sanes.
 
 ## Demo
 
