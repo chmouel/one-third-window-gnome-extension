@@ -22,7 +22,8 @@ Simply head to the gnome extension webite and install it from there :
 
 https://extensions.gnome.org/extension/4615/one-third-window/
 
-or checkout this extension and do a make install to install it in your `~/.local/share/gnome-shell/extensions` directory.
+or checkout this repo and do a make install to install it 
+in your `~/.local/share/gnome-shell/extensions` directory.
 
 ## Settings
 
