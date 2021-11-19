@@ -3,12 +3,18 @@
 Position window to a one third of the screen.
 
 The idea of one third window is where you have a ultra wide screen and rather
-have a "big" centered window but keep some other windows (2 to be exact) on the
+wanted to have a "large" centered window but keep some other windows (2 to be exact) on the
 side.
 
 This extension automate it, it add a shortcut (Super+c by default ) to always
-center the current or another shortcut (Super+Shift+c) to rotate the postion
+center the current and another shortcut (Super+Shift+c) to rotate the postion
 from Left to Right.
+
+You can customize the pixel positionement as much as you want but the defaults should be sanes.
+
+## Demo
+
+![Alt Text](./examples/one-third-window.gif)
 
 ## Settings
 
@@ -25,8 +31,8 @@ You can set the center or rotate shortcut to your liking.
 
 ## Acknowledgement
 
-Move of that code comes from the wonderful
-[tactile](https://gitlab.com/lundal/tactile) extension, and it probably much
-more flexible and configurable way for window resizing and positioning.
+Most of that code comes from the wonderful
+[tactile](https://gitlab.com/lundal/tactile) extension, and tactile is probably much
+more flexible and configurable way for a titling windows and positioning experience.
 
-If this extension is not flexible for you enough I encourage you to check out **tactile**.
+If this extension is not flexible for you enough I greatly encourage you to check out **tactile**.
