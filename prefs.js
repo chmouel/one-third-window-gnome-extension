@@ -78,7 +78,7 @@ function buildPrefsWidget() {
     return grid;
 }
 
-function buildKeryboardShortcutsWidget(settings, allTreeViews) {
+function buildKeyboardShortcutsWidget(settings, allTreeViews) {
     const grid = new Gtk.Grid({
         halign: Gtk.Align.CENTER,
         column_spacing: 12,
