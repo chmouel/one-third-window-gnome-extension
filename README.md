@@ -7,7 +7,7 @@ wanted to have a "large" centered window but keep some other windows (2 to be ex
 side.
 
 This extension automate it, it add a shortcut (Super+c by default ) to always
-center the current and another shortcut (Super+Shift+c) to rotate the postion
+center the current window and another shortcut (Super+Shift+c) to rotate the postion
 from Left to Right.
 
 You can customize the pixel positionement as much as you want but the defaults should be sanes.
