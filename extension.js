@@ -4,7 +4,6 @@ const {Meta, Shell} = imports.gi;
 
 const Main = imports.ui.main;
 const ExtensionUtils = imports.misc.extensionUtils;
-const Me = ExtensionUtils.getCurrentExtension();
 
 var LEFT = 'LEFT';
 var RIGHT = 'RIGHT';
@@ -18,9 +17,9 @@ class Extension {
 
     getActiveWindow() {
         return global.workspace_manager
-      .get_active_workspace()
-      .list_windows()
-      .find(window => window.has_focus());
+        .get_active_workspace()
+        .list_windows()
+        .find(window => window.has_focus());
     }
 
     enable() {
