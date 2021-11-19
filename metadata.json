@@ -4,7 +4,7 @@
     "description": "Center the current window by one third of the screen.",
     "url": "https://github.com/chmouel/one-third-window-gnome-extension",
     "settings-schema": "org.gnome.shell.extensions.onethirdwindow",
-    "version": 1,
+    "version": 2,
     "shell-version": [
         "3.34",
         "3.36",
