@@ -31,8 +31,8 @@ You can set the center or rotate shortcut to your liking.
 
 ## Acknowledgement
 
-Move of that code comes from the wonderful
-[tactile](https://gitlab.com/lundal/tactile) extension, and it probably much
-more flexible and configurable way for window resizing and positioning.
+Most of that code comes from the wonderful
+[tactile](https://gitlab.com/lundal/tactile) extension, and tactile is probably much
+more flexible and configurable way for a titling windows and positioning experience.
 
-If this extension is not flexible for you enough I encourage you to check out **tactile**.
+If this extension is not flexible for you enough I greatly encourage you to check out **tactile**.
