@@ -1,2 +1,5 @@
 /schemas/*.compiled
+/node_modules
+/package*
+/.eslintrc
 /*.zip

@@ -2,7 +2,7 @@
     "name": "One third window",
     "uuid": "one-third-window@chmouel.com",
     "description": "Center the current window by one third of the screen.",
-    "url": "https://github.com/chmouel/kind-applet",
+    "url": "https://github.com/chmouel/one-third-window-gnome-extension",
     "settings-schema": "org.gnome.shell.extensions.onethirdwindow",
     "version": 1,
     "shell-version": [
