@@ -10,6 +10,10 @@ This extension automate it, it add a shortcut (Super+c by default ) to always
 center the current or another shortcut (Super+Shift+c) to rotate the postion
 from Left to Right.
 
+## Demo
+
+![Alt Text](./examples/one-third-window.gif)
+
 ## Settings
 
 A few settings you can adjust :
