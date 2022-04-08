@@ -12,7 +12,7 @@ install: $(zip)
 clean:
 	rm -f $(zip) $(schema)
 
-$(zip): *.json extension.js prefs.js $(schema)
+$(zip): metadata.json extension.js prefs.js $(schema)
 	zip - $^ > $@
 
 $(schema): schemas/*.xml
