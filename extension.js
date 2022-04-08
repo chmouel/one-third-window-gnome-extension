@@ -30,6 +30,7 @@ class Extension {
 
     disable() {
         this.unbindKey('center-shortcut');
+        this.unbindKey('rotate-shortcut');
     }
 
     moveCenter() {
