@@ -1,18 +1,11 @@
 {
     "name": "One third window",
-    "uuid": "one-third-window@chmouel.com",
+    "uuid": "one-third-window@kevinbburns.com",
     "description": "Center or Cycle the current window by one third of the screen via a keyboard shortcut.",
-    "url": "https://github.com/chmouel/one-third-window-gnome-extension",
+    "url": "https://github.com/kevinbburns/one-third-window-gnome-extension",
     "settings-schema": "org.gnome.shell.extensions.onethirdwindow",
-    "version": 6,
+    "version": 9,
     "shell-version": [
-        "3.34",
-        "3.36",
-        "3.38",
-        "40",
-        "41",
-        "42",
-        "43",
-        "44"
+        "45"
     ]
 }
