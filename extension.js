@@ -1,19 +1,13 @@
-'use strict';
-
-const {Meta, Shell} = imports.gi;
-
-const Main = imports.ui.main;
-const ExtensionUtils = imports.misc.extensionUtils;
+import Meta from 'gi://Meta';
+import Shell from 'gi://Shell';
+import * as Main from 'resource:///org/gnome/shell/ui/main.js';
+import {Extension} from 'resource:///org/gnome/shell/extensions/extension.js';
 
 var LEFT = 'LEFT';
 var RIGHT = 'RIGHT';
 var CENTER = 'CENTER';
 
-class Extension {
-    constructor() {
-        this._window = null;
-        this._previous = null;
-    }
+export default class OneThirdWindow extends Extension {
 
     getActiveWindow() {
         return global.workspace_manager
@@ -23,7 +17,9 @@ class Extension {
     }
 
     enable() {
-        this._settings = ExtensionUtils.getSettings();
+        this._window = null;
+        this._previous = null;
+        this._settings = this.getSettings();
         this.bindKey('center-shortcut', () => this.moveCenter());
         this.bindKey('rotate-shortcut', () => this.moveAround());
     }
